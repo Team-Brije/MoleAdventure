@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Menu-CreditosTraduccion Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Menu-CreditosTraduccion
+  m_TableCollectionNameGuidString: 10c24d0f9fc42da44a4828db43735bc6
+  m_Entries:
+  - m_Id: 12996091904
+    m_Key: Texto-creditos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108701720576
+    m_Key: Texto-arte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127420899328
+    m_Key: Texto-programacion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138804240384
+    m_Key: 'Texto-musica
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 724253581312
+    m_Key: Texto-asesores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 835578798080
+    m_Key: Texto-testers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1029930262528
+    m_Key: Texto-gracias
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2567620829184
+    m_Key: Texto-memoria
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 396287620773576742
+  references:
+    version: 2
+    RefIds:
+    - rid: 396287620773576742
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1729719905293
