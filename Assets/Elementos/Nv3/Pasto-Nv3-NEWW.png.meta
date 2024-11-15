@@ -1,0 +1,783 @@
+fileFormatVersion: 2
+guid: a49ce5f8e53456d46afb3c58b3468113
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -100, y: -147}
+        - {x: -129, y: -143}
+        - {x: -143, y: -124}
+        - {x: -138, y: 104}
+        - {x: -124, y: 120}
+        - {x: -101, y: 124}
+        - {x: 252, y: 120}
+        - {x: 252, y: -151}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cba99b0f462a040a4b11da2eb6695a
+      internalID: 1829418416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 94, y: -141}
+        - {x: -250, y: -145}
+        - {x: -249, y: 124}
+        - {x: 105, y: 124}
+        - {x: 139, y: 119}
+        - {x: 158, y: 97}
+        - {x: 158, y: -116}
+        - {x: 131, y: -136}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79097e5dd0f6e842939b146a7c12cf0
+      internalID: 2045663481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 142, y: -103}
+        - {x: -103, y: -106}
+        - {x: -125, y: -98}
+        - {x: -134, y: -83}
+        - {x: -136, y: 65}
+        - {x: -124, y: 77}
+        - {x: 139, y: 84}
+        - {x: 158, y: 78}
+        - {x: 171, y: 64}
+        - {x: 166, y: -72}
+        - {x: 158, y: -93}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e5e6ac37e3cfe2498b799272ee18e32
+      internalID: 903355577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -216, y: -109}
+        - {x: -216, y: 83}
+        - {x: 225, y: 83}
+        - {x: 225, y: -109}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8f34abd89566c47ba7f01c442d41be
+      internalID: -1860276594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5708535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 146, y: -179}
+        - {x: 54, y: -182}
+        - {x: -34, y: -172}
+        - {x: -95, y: -147}
+        - {x: -152, y: -98}
+        - {x: -176, y: -60}
+        - {x: -180, y: -9}
+        - {x: -166, y: 51}
+        - {x: -121, y: 117}
+        - {x: -72, y: 152}
+        - {x: -25, y: 169}
+        - {x: 43, y: 160}
+        - {x: 107, y: 143}
+        - {x: 159, y: 151}
+        - {x: 198, y: 176}
+        - {x: 251, y: 195}
+        - {x: 249, y: -157}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f7a8e52e712324ab9082aa39f05c01
+      internalID: -1742433738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5708535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 164, y: -143}
+        - {x: 80, y: -116}
+        - {x: 3, y: -97}
+        - {x: -47, y: -103}
+        - {x: -127, y: -115}
+        - {x: -186, y: -132}
+        - {x: -251, y: -164}
+        - {x: -249, y: 185}
+        - {x: -196, y: 186}
+        - {x: -164, y: 180}
+        - {x: -115, y: 199}
+        - {x: -47, y: 213}
+        - {x: 22, y: 204}
+        - {x: 72, y: 195}
+        - {x: 135, y: 210}
+        - {x: 204, y: 204}
+        - {x: 251, y: 197}
+        - {x: 252, y: -155}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4895a3205f7724895ca6190ec76ebb
+      internalID: -1452644492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_6
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5708535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 181, y: -157}
+        - {x: 121, y: -163}
+        - {x: 29, y: -196}
+        - {x: -51, y: -199}
+        - {x: -117, y: -184}
+        - {x: -180, y: -175}
+        - {x: -252, y: -156}
+        - {x: -249, y: 190}
+        - {x: -214, y: 194}
+        - {x: -152, y: 201}
+        - {x: -94, y: 198}
+        - {x: -37, y: 175}
+        - {x: 17, y: 137}
+        - {x: 95, y: 130}
+        - {x: 170, y: 124}
+        - {x: 248, y: 145}
+        - {x: 253, y: -183}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c908a66ec9b86f418bb08963688ce7f
+      internalID: -267335303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_7
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5708535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 21, y: -172}
+        - {x: -67, y: -191}
+        - {x: -156, y: -202}
+        - {x: -204, y: -195}
+        - {x: -249, y: -184}
+        - {x: -252, y: 151}
+        - {x: -195, y: 137}
+        - {x: -142, y: 128}
+        - {x: -88, y: 133}
+        - {x: -26, y: 164}
+        - {x: 32, y: 167}
+        - {x: 103, y: 145}
+        - {x: 137, y: 103}
+        - {x: 180, y: 48}
+        - {x: 186, y: -1}
+        - {x: 186, y: -63}
+        - {x: 158, y: -106}
+        - {x: 90, y: -150}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d13751d226c088439922e3e9ac16213
+      internalID: 1544571335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.5648406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -192, y: -245}
+        - {x: -192, y: 193}
+        - {x: 253, y: 193}
+        - {x: 253, y: -245}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d759545ea17f094cad88edecaed8d9e
+      internalID: 2058727673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5648406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -251, y: -252}
+        - {x: -251, y: 194}
+        - {x: 207, y: 194}
+        - {x: 207, y: -252}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ea4756acc7ab641a8f3f17810be869
+      internalID: 2076852766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5109029, y: 0.5461061}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -96, y: -248}
+        - {x: -114, y: -207}
+        - {x: -120, y: -144}
+        - {x: -101, y: -87}
+        - {x: -45, y: -37}
+        - {x: -3, y: 15}
+        - {x: 41, y: 86}
+        - {x: 93, y: 122}
+        - {x: 154, y: 139}
+        - {x: 203, y: 138}
+        - {x: 248, y: 147}
+        - {x: 249, y: -249}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f132fd2090b80084caa8bafba60a69df
+      internalID: 1791119244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.48909855, y: 0.5268009}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -252, y: -252}
+        - {x: -252, y: 154}
+        - {x: -219, y: 167}
+        - {x: -163, y: 164}
+        - {x: -104, y: 147}
+        - {x: -44, y: 94}
+        - {x: -6, y: 29}
+        - {x: 44, y: 4}
+        - {x: 94, y: -22}
+        - {x: 116, y: -74}
+        - {x: 121, y: -131}
+        - {x: 125, y: -183}
+        - {x: 116, y: -252}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8803d2c4f71e4404ab4fd3de5041ff29
+      internalID: -1910180392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.396255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -197, y: -165}
+        - {x: -197, y: 251}
+        - {x: 250, y: 251}
+        - {x: 250, y: -165}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3a1dd65389eb048b60b18143b9efa6
+      internalID: 825732156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39625502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -252, y: -165}
+        - {x: -253, y: 252}
+        - {x: 191, y: 252}
+        - {x: 192, y: -165}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc661eec6ab57c4cbd3124932d1c7e5
+      internalID: -1873059109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.5, y: 0.56245744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 217, y: -185}
+        - {x: 149, y: -182}
+        - {x: 88, y: -169}
+        - {x: 41, y: -126}
+        - {x: -5, y: -59}
+        - {x: -33, y: -10}
+        - {x: -78, y: 10}
+        - {x: -107, y: 47}
+        - {x: -118, y: 99}
+        - {x: -113, y: 154}
+        - {x: -100, y: 195}
+        - {x: -89, y: 223}
+        - {x: -90, y: 251}
+        - {x: 251, y: 250}
+        - {x: 251, y: -187}
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8fea732d569894cb58b39ba19775c2
+      internalID: -835582899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_15
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.490675, y: 0.5531324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -84}
+        - {x: -45, y: -148}
+        - {x: -87, y: -193}
+        - {x: -159, y: -212}
+        - {x: -215, y: -211}
+        - {x: -252, y: -190}
+        - {x: -254, y: 254}
+        - {x: 108, y: 254}
+        - {x: 115, y: 217}
+        - {x: 126, y: 135}
+        - {x: 126, y: 70}
+        - {x: 112, y: 8}
+        - {x: 76, y: -44}
+        - {x: 36, y: -61}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9653f58ad4376c941866612b40fa2375
+      internalID: -1334456735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 9
+      pivot: {x: 0.50981873, y: 0.5687314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -254, y: -116}
+        - {x: -254, y: 169}
+        - {x: 254, y: 169}
+        - {x: 254, y: -116}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7011c221cf6d5c149b10540e4e004ac3
+      internalID: 39748670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 183, y: -154}
+        - {x: 101, y: -130}
+        - {x: 52, y: -130}
+        - {x: 9, y: -140}
+        - {x: -75, y: -162}
+        - {x: -147.1914, y: -203}
+        - {x: -179.53772, y: -226.6899}
+        - {x: -210, y: -249}
+        - {x: -209, y: 186}
+        - {x: -153, y: 192}
+        - {x: -96, y: 190}
+        - {x: -37, y: 191}
+        - {x: 35, y: 179}
+        - {x: 99, y: 156}
+        - {x: 159, y: 138}
+        - {x: 205, y: 137}
+        - {x: 252, y: 149}
+        - {x: 252, y: -200}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0eafce92435e14ba46e7d75853980c
+      internalID: -778272552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 65, y: -215}
+        - {x: -12, y: -224}
+        - {x: -89, y: -224}
+        - {x: -137, y: -226}
+        - {x: -187, y: -217}
+        - {x: -254, y: -198}
+        - {x: -253, y: 153}
+        - {x: -203, y: 154}
+        - {x: -143, y: 153}
+        - {x: -82, y: 147}
+        - {x: -14, y: 140}
+        - {x: 41, y: 125}
+        - {x: 98, y: 104}
+        - {x: 144, y: 75}
+        - {x: 183, y: 30}
+        - {x: 190, y: -32}
+        - {x: 190, y: -86}
+        - {x: 161, y: -137}
+        - {x: 126, y: -176}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82522fbeeb46f346a5dad956c08eaf0
+      internalID: 803212032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pasto-Nv3-NEWW_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -254, y: -251}
+        - {x: -254, y: 150}
+        - {x: 250, y: 150}
+        - {x: 250, y: -251}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff086dfaaad1754ebdb226c65ca3d40
+      internalID: -1992125340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Pasto-Nv3-NEWW_0: 1829418416
+      Pasto-Nv3-NEWW_1: 2045663481
+      Pasto-Nv3-NEWW_10: 1791119244
+      Pasto-Nv3-NEWW_11: -1910180392
+      Pasto-Nv3-NEWW_12: 825732156
+      Pasto-Nv3-NEWW_13: -1873059109
+      Pasto-Nv3-NEWW_14: -835582899
+      Pasto-Nv3-NEWW_15: -1334456735
+      Pasto-Nv3-NEWW_16: 39748670
+      Pasto-Nv3-NEWW_17: -778272552
+      Pasto-Nv3-NEWW_18: 803212032
+      Pasto-Nv3-NEWW_19: -1992125340
+      Pasto-Nv3-NEWW_2: 903355577
+      Pasto-Nv3-NEWW_3: -1860276594
+      Pasto-Nv3-NEWW_4: -1742433738
+      Pasto-Nv3-NEWW_5: -1452644492
+      Pasto-Nv3-NEWW_6: -267335303
+      Pasto-Nv3-NEWW_7: 1544571335
+      Pasto-Nv3-NEWW_8: 2058727673
+      Pasto-Nv3-NEWW_9: 2076852766
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

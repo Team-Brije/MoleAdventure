@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Flor2
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -836591146, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  - {fileID: 773467369, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  - {fileID: 1113685614, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  - {fileID: 1542656153, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  - {fileID: 315988475, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  - {fileID: 640426233, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  - {fileID: -1707135653, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  - {fileID: 1251722632, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  - {fileID: -282989657, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  - {fileID: 841046073, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  - {fileID: -2076402472, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  - {fileID: 503142918, guid: 4af8f1bee9d3640448c0f856cd08e42c, type: 3}
+  m_MinSpeed: 5
+  m_MaxSpeed: 5
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
+  m_TileAnimationFlags: 0

@@ -109,36 +109,36 @@ ScriptedImporter:
     spriteBone:
     - name: orejaI2
       guid: b78c1689d0692b04aaf360e4e6b1fd3b
-      position: {x: 30.135817, y: 65.96764, z: 0}
-      rotation: {x: 0, y: 0, z: 0.26797122, w: 0.963427}
-      length: 88.24835
+      position: {x: 30.13584, y: 65.96763, z: 0}
+      rotation: {x: 0, y: 0, z: 0.26797083, w: 0.963427}
+      length: 88.2484
       parentId: 2
       color:
         serializedVersion: 2
         rgba: 4286643968
     - name: orejaI1
       guid: 92d85f8113cd519418b2f6bdb9556880
-      position: {x: 87.98569, y: -0.0000941418, z: 0}
-      rotation: {x: 0, y: 0, z: -0.11619049, w: 0.99322695}
-      length: 100.77807
+      position: {x: 87.985664, y: 0.000013144075, z: 0}
+      rotation: {x: 0, y: 0, z: -0.11619, w: 0.99322706}
+      length: 100.778046
       parentId: 3
       color:
         serializedVersion: 2
         rgba: 4294934528
     - name: cabeza1
       guid: 76e0cb12bcca0d841aeb9bc33ef05558
-      position: {x: 221.43076, y: 15.212524, z: 0}
-      rotation: {x: 0, y: 0, z: 0.8183742, w: 0.5746858}
-      length: 120.23733
+      position: {x: 221.43073, y: 15.212524, z: 0}
+      rotation: {x: 0, y: 0, z: 0.8183743, w: 0.57468575}
+      length: 120.23732
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: orejaI2_2
       guid: a78a22ead226eaa42a474340199a3e74
-      position: {x: 88.248436, y: -0.000054243625, z: 0}
-      rotation: {x: 0, y: 0, z: -0.21561259, w: 0.976479}
-      length: 87.98568
+      position: {x: 88.24848, y: 0.000025039993, z: 0}
+      rotation: {x: 0, y: 0, z: -0.21561272, w: 0.97647893}
+      length: 87.98565
       parentId: 0
       color:
         serializedVersion: 2
@@ -629,9 +629,9 @@ ScriptedImporter:
     spriteBone:
     - name: cabeza2
       guid: 715e6a1d281ee094d9c1e45b86d9fc06
-      position: {x: 172.86009, y: 2.3268003, z: 0}
-      rotation: {x: 0, y: 0, z: -0.02406675, w: 0.99971044}
-      length: 113.95147
+      position: {x: 172.86005, y: 2.3268762, z: 0}
+      rotation: {x: 0, y: 0, z: -0.024066748, w: 0.9997104}
+      length: 113.95146
       parentId: 1
       color:
         serializedVersion: 2
@@ -639,26 +639,26 @@ ScriptedImporter:
     - name: cuerpo1
       guid: 136c52608d163684ab43a1a688d4f1be
       position: {x: 154.93396, y: -138.35828, z: 0}
-      rotation: {x: 0, y: 0, z: 0.72133976, w: 0.6925814}
-      length: 146.38248
+      rotation: {x: 0, y: 0, z: 0.7213398, w: 0.6925814}
+      length: 146.38245
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4294967040
     - name: cabeza1
       guid: 76e0cb12bcca0d841aeb9bc33ef05558
-      position: {x: 113.95143, y: 0.00010006535, z: 0}
-      rotation: {x: 0, y: 0, z: 0.17598914, w: 0.98439217}
-      length: 120.23734
+      position: {x: 113.95147, y: 0.000024707968, z: 0}
+      rotation: {x: 0, y: 0, z: 0.17598918, w: 0.98439217}
+      length: 120.23732
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: orejaD2_1
       guid: 8791a745017d5fa4991b9583b813c415
-      position: {x: 179.68195, y: 247.02356, z: 0}
-      rotation: {x: 0, y: 0, z: 0.87459683, w: 0.48485094}
-      length: 82.02024
+      position: {x: 179.68188, y: 247.02356, z: 0}
+      rotation: {x: 0, y: 0, z: 0.87459713, w: 0.48485035}
+      length: 82.020226
       parentId: -1
       color:
         serializedVersion: 2
@@ -738,8 +738,8 @@ ScriptedImporter:
     - position: {x: 253.424, y: 89.078}
       boneWeight:
         weight0: 0.7755897
-        weight1: 0.19407599
-        weight2: 0.030334318
+        weight1: 0.19407597
+        weight2: 0.030334316
         weight3: 0
         boneIndex0: 0
         boneIndex1: 2
@@ -1078,8 +1078,8 @@ ScriptedImporter:
     - position: {x: 226.3611, y: 87.27508}
       boneWeight:
         weight0: 0.7801954
-        weight1: 0.18772455
-        weight2: 0.032080054
+        weight1: 0.18772453
+        weight2: 0.03208005
         weight3: 0
         boneIndex0: 0
         boneIndex1: 2
@@ -1147,9 +1147,9 @@ ScriptedImporter:
         boneIndex3: 0
     - position: {x: 226.47787, y: 130.70181}
       boneWeight:
-        weight0: 0.7040522
+        weight0: 0.70405227
         weight1: 0.28906822
-        weight2: 0.006879528
+        weight2: 0.0068795285
         weight3: 0
         boneIndex0: 2
         boneIndex1: 0
@@ -1197,9 +1197,9 @@ ScriptedImporter:
         boneIndex3: 0
     - position: {x: 189.15419, y: 101.79612}
       boneWeight:
-        weight0: 0.54794
+        weight0: 0.54793996
         weight1: 0.4367583
-        weight2: 0.015301789
+        weight2: 0.015301787
         weight3: 0
         boneIndex0: 2
         boneIndex1: 0
@@ -1297,9 +1297,9 @@ ScriptedImporter:
         boneIndex3: 0
     - position: {x: 198.84744, y: 40.878212}
       boneWeight:
-        weight0: 0.5679154
+        weight0: 0.56791544
         weight1: 0.29809824
-        weight2: 0.13398635
+        weight2: 0.13398637
         weight3: 0
         boneIndex0: 1
         boneIndex1: 0
@@ -1308,8 +1308,8 @@ ScriptedImporter:
     - position: {x: 230.64488, y: 54.198757}
       boneWeight:
         weight0: 0.5234943
-        weight1: 0.32492587
-        weight2: 0.15157987
+        weight1: 0.32492584
+        weight2: 0.15157986
         weight3: 0
         boneIndex0: 0
         boneIndex1: 1
@@ -1373,44 +1373,44 @@ ScriptedImporter:
     - name: cabeza2
       guid: 715e6a1d281ee094d9c1e45b86d9fc06
       position: {x: 79.58014, y: -70.73578, z: 0}
-      rotation: {x: 0, y: 0, z: 0.70446265, w: 0.7097411}
-      length: 113.95147
+      rotation: {x: 0, y: 0, z: 0.7044627, w: 0.7097411}
+      length: 113.95146
       parentId: -1
       color:
         serializedVersion: 2
         rgba: 4294901760
     - name: cabeza1
       guid: 76e0cb12bcca0d841aeb9bc33ef05558
-      position: {x: 113.95147, y: -0.000020801855, z: 0}
-      rotation: {x: 0, y: 0, z: 0.17598912, w: 0.9843921}
-      length: 120.23734
+      position: {x: 113.95147, y: 0.0000172312, z: 0}
+      rotation: {x: 0, y: 0, z: 0.17598918, w: 0.98439217}
+      length: 120.23732
       parentId: 0
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: orejaD2
       guid: 87c1974e58a0e2347a839c6929c8d1e1
-      position: {x: -37.25547, y: -20.84569, z: 0}
-      rotation: {x: 0, y: 0, z: -0.17618263, w: 0.98435754}
-      length: 126.78156
+      position: {x: -37.255432, y: -20.845598, z: 0}
+      rotation: {x: 0, y: 0, z: -0.17618263, w: 0.9843575}
+      length: 126.78151
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4278223103
     - name: orejaD1
       guid: bce5aa3d33379b94dbd0839294e6304c
-      position: {x: 82.02028, y: 0.000031464253, z: 0}
-      rotation: {x: 0, y: 0, z: 0.00091296417, w: 0.9999996}
-      length: 110.4187
+      position: {x: 82.02025, y: 0.00007914997, z: 0}
+      rotation: {x: 0, y: 0, z: 0.00091235386, w: 0.9999996}
+      length: 110.41872
       parentId: 4
       color:
         serializedVersion: 2
         rgba: 4278255488
     - name: orejaD2_1
       guid: 8791a745017d5fa4991b9583b813c415
-      position: {x: 126.78149, y: 0.000049898394, z: 0}
-      rotation: {x: 0, y: 0, z: 0.2793667, w: 0.9601845}
-      length: 82.02024
+      position: {x: 126.78146, y: -0.000060232862, z: 0}
+      rotation: {x: 0, y: 0, z: 0.27936724, w: 0.96018434}
+      length: 82.0202
       parentId: 2
       color:
         serializedVersion: 2
@@ -2052,7 +2052,7 @@ ScriptedImporter:
     - name: cuerpo1
       guid: 136c52608d163684ab43a1a688d4f1be
       position: {x: 156.46805, y: -0.000117162184, z: 0}
-      rotation: {x: 0, y: 0, z: 0.017616648, w: 0.99984485}
+      rotation: {x: 0, y: 0, z: 0.017616691, w: 0.99984485}
       length: 146.38246
       parentId: 1
       color:
@@ -2671,16 +2671,16 @@ ScriptedImporter:
     spriteBone:
     - name: pieD3
       guid: 422fdbd0488ced940a1df9cb40b6d1e9
-      position: {x: 74.89109, y: 0.00015146293, z: 0}
-      rotation: {x: 0, y: 0, z: 0.713868, w: 0.70028037}
-      length: 66.747856
+      position: {x: 74.89103, y: 0.00015146293, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7138681, w: 0.7002803}
+      length: 35.120754
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4294901760
     - name: pieD2
       guid: ace7217c12de051428b1801c32610b64
-      position: {x: 124.75859, y: 0.0000075981366, z: 0}
+      position: {x: 124.75865, y: 0.000009248521, z: 0}
       rotation: {x: 0, y: 0, z: -0.008920302, w: 0.99996024}
       length: 74.89099
       parentId: 2
@@ -2691,7 +2691,7 @@ ScriptedImporter:
       guid: 54f0a70d8e4cd5b4587dd73de7f05b1f
       position: {x: 62.637512, y: 213.70502, z: 0}
       rotation: {x: 0, y: 0, z: 0.71660304, w: -0.6974813}
-      length: 124.758705
+      length: 124.75871
       parentId: -1
       color:
         serializedVersion: 2
@@ -2699,8 +2699,8 @@ ScriptedImporter:
     - name: pie-I-2
       guid: 193d440738cae75488e3fcb95682138a
       position: {x: -52.542267, y: 97.49878, z: 0}
-      rotation: {x: 0, y: 0, z: 0.733779, w: -0.67938834}
-      length: 83.16056
+      rotation: {x: 0, y: 0, z: 0.73377955, w: -0.6793877}
+      length: 83.160545
       parentId: -1
       color:
         serializedVersion: 2
@@ -2708,8 +2708,8 @@ ScriptedImporter:
     - name: cabeza2
       guid: 715e6a1d281ee094d9c1e45b86d9fc06
       position: {x: 3.5801392, y: 610.26416, z: 0}
-      rotation: {x: 0, y: 0, z: 0.70446265, w: 0.7097411}
-      length: 113.95147
+      rotation: {x: 0, y: 0, z: 0.7044627, w: 0.7097411}
+      length: 113.95146
       parentId: -1
       color:
         serializedVersion: 2
@@ -3338,9 +3338,9 @@ ScriptedImporter:
         boneIndex3: 0
     - position: {x: 70.18101, y: 36.18525}
       boneWeight:
-        weight0: 0.7287574
+        weight0: 0.72875744
         weight1: 0.2701987
-        weight2: 0.0010438758
+        weight2: 0.0010438759
         weight3: 0
         boneIndex0: 1
         boneIndex1: 0
@@ -3539,18 +3539,18 @@ ScriptedImporter:
     spriteBone:
     - name: pie-I-3
       guid: 660e378a72239ef48b055116d9d34a65
-      position: {x: 83.160576, y: 0.000041671825, z: 0}
-      rotation: {x: 0, y: 0, z: 0.7357842, w: 0.6772162}
-      length: 72.72112
+      position: {x: 83.160446, y: 0.00012482148, z: 0}
+      rotation: {x: 0, y: 0, z: 0.73578465, w: 0.6772157}
+      length: 38.74091
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4278255615
     - name: pie-I-2
       guid: 193d440738cae75488e3fcb95682138a
-      position: {x: 115.70017, y: 0.00004636867, z: 0}
-      rotation: {x: 0, y: 0, z: -0.024228467, w: 0.99970645}
-      length: 83.16057
+      position: {x: 115.700165, y: -0.000030793584, z: 0}
+      rotation: {x: 0, y: 0, z: -0.02422965, w: 0.9997065}
+      length: 83.160545
       parentId: 2
       color:
         serializedVersion: 2
@@ -3558,8 +3558,8 @@ ScriptedImporter:
     - name: pie-I-1
       guid: f43c3718d6a015741bb0f899e2bc4795
       position: {x: 62.752075, y: 213.15204, z: 0}
-      rotation: {x: 0, y: 0, z: 0.71710306, w: -0.69696724}
-      length: 115.70012
+      rotation: {x: 0, y: 0, z: 0.7171028, w: -0.6969675}
+      length: 115.700134
       parentId: -1
       color:
         serializedVersion: 2
@@ -4436,7 +4436,7 @@ ScriptedImporter:
     - name: cuerpo1
       guid: 136c52608d163684ab43a1a688d4f1be
       position: {x: 156.46803, y: -0.00015350364, z: 0}
-      rotation: {x: 0, y: 0, z: 0.017616637, w: 0.99984485}
+      rotation: {x: 0, y: 0, z: 0.017616676, w: 0.99984485}
       length: 146.38246
       parentId: 2
       color:
@@ -4445,15 +4445,15 @@ ScriptedImporter:
     - name: cabeza2
       guid: 715e6a1d281ee094d9c1e45b86d9fc06
       position: {x: 172.86008, y: 2.3268876, z: 0}
-      rotation: {x: 0, y: 0, z: -0.024066744, w: 0.9997104}
-      length: 113.95147
+      rotation: {x: 0, y: 0, z: -0.024066743, w: 0.9997104}
+      length: 113.95146
       parentId: 3
       color:
         serializedVersion: 2
         rgba: 4294901760
     - name: cabeza1
       guid: 76e0cb12bcca0d841aeb9bc33ef05558
-      position: {x: 113.95148, y: 0.000011379482, z: 0}
+      position: {x: 113.95149, y: 0.000011271772, z: 0}
       rotation: {x: 0, y: 0, z: 0.17598914, w: 0.9843921}
       length: 120.23734
       parentId: 4
@@ -4464,15 +4464,15 @@ ScriptedImporter:
       guid: 87c1974e58a0e2347a839c6929c8d1e1
       position: {x: -37.25548, y: -20.845652, z: 0}
       rotation: {x: 0, y: 0, z: -0.17618263, w: 0.98435754}
-      length: 126.781555
+      length: 126.78151
       parentId: 5
       color:
         serializedVersion: 2
         rgba: 4278223103
     - name: orejaD1
       guid: bce5aa3d33379b94dbd0839294e6304c
-      position: {x: 82.02025, y: 0.00007185538, z: 0}
-      rotation: {x: 0, y: 0, z: 0.0009129475, w: 0.9999996}
+      position: {x: 82.02026, y: 0.0000018616083, z: 0}
+      rotation: {x: 0, y: 0, z: 0.0009123754, w: 0.99999964}
       length: 110.41871
       parentId: 16
       color:
@@ -4481,16 +4481,16 @@ ScriptedImporter:
     - name: orejaI2
       guid: b78c1689d0692b04aaf360e4e6b1fd3b
       position: {x: 30.13586, y: 65.96766, z: 0}
-      rotation: {x: 0, y: 0, z: 0.2679712, w: 0.96342695}
-      length: 88.24836
+      rotation: {x: 0, y: 0, z: 0.26797086, w: 0.96342707}
+      length: 88.24841
       parentId: 5
       color:
         serializedVersion: 2
         rgba: 4286643968
     - name: orejaI1
       guid: 92d85f8113cd519418b2f6bdb9556880
-      position: {x: 87.98565, y: -0.000059257327, z: 0}
-      rotation: {x: 0, y: 0, z: -0.11619043, w: 0.993227}
+      position: {x: 87.98565, y: 0.000006241906, z: 0}
+      rotation: {x: 0, y: 0, z: -0.11619004, w: 0.99322706}
       length: 100.77807
       parentId: 17
       color:
@@ -4499,26 +4499,26 @@ ScriptedImporter:
     - name: pie-I-1
       guid: f43c3718d6a015741bb0f899e2bc4795
       position: {x: 81.81212, y: 65.73127, z: 0}
-      rotation: {x: 0, y: -0, z: 0.9994064, w: 0.03445094}
-      length: 115.70012
+      rotation: {x: 0, y: -0, z: 0.9994064, w: 0.034450583}
+      length: 115.70014
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4294901888
     - name: pie-I-2
       guid: 193d440738cae75488e3fcb95682138a
-      position: {x: 115.70012, y: 0.00003377463, z: 0}
-      rotation: {x: 0, y: 0, z: -0.024228422, w: 0.99970645}
-      length: 83.16056
+      position: {x: 115.70014, y: -0.000048317095, z: 0}
+      rotation: {x: 0, y: 0, z: -0.024229653, w: 0.99970645}
+      length: 83.16055
       parentId: 10
       color:
         serializedVersion: 2
         rgba: 4286578943
     - name: pie-I-3
       guid: 660e378a72239ef48b055116d9d34a65
-      position: {x: 83.16055, y: -0.000032020354, z: 0}
-      rotation: {x: 0, y: 0, z: 0.73578405, w: 0.67721623}
-      length: 72.72112
+      position: {x: 83.16056, y: 0.00011020839, z: 0}
+      rotation: {x: 0, y: -0, z: 0.73578465, w: 0.67721564}
+      length: 38.74091
       parentId: 11
       color:
         serializedVersion: 2
@@ -4527,14 +4527,14 @@ ScriptedImporter:
       guid: 54f0a70d8e4cd5b4587dd73de7f05b1f
       position: {x: 77.841446, y: -46.08505, z: 0}
       rotation: {x: 0, y: -0, z: 0.99943084, w: 0.033734195}
-      length: 124.758705
+      length: 124.75871
       parentId: 1
       color:
         serializedVersion: 2
         rgba: 4278255360
     - name: pieD2
       guid: ace7217c12de051428b1801c32610b64
-      position: {x: 124.75872, y: -0.000025673624, z: 0}
+      position: {x: 124.75873, y: -0.000025467327, z: 0}
       rotation: {x: 0, y: 0, z: -0.008920326, w: 0.99996024}
       length: 74.89099
       parentId: 13
@@ -4543,31 +4543,49 @@ ScriptedImporter:
         rgba: 4294967040
     - name: pieD3
       guid: 422fdbd0488ced940a1df9cb40b6d1e9
-      position: {x: 74.89099, y: 0.00014612409, z: 0}
-      rotation: {x: 0, y: 0, z: 0.713868, w: 0.7002803}
-      length: 66.74787
+      position: {x: 74.891, y: 0.00014655199, z: 0}
+      rotation: {x: 0, y: -0, z: 0.713868, w: 0.70028025}
+      length: 35.12076
       parentId: 14
       color:
         serializedVersion: 2
         rgba: 4294901760
     - name: orejaD2_1
       guid: 8791a745017d5fa4991b9583b813c415
-      position: {x: 126.78151, y: 0.000010663709, z: 0}
-      rotation: {x: 0, y: 0, z: 0.27936667, w: 0.9601845}
-      length: 82.02023
+      position: {x: 126.781494, y: -0.000012636783, z: 0}
+      rotation: {x: 0, y: 0, z: 0.27936724, w: 0.9601844}
+      length: 82.02022
       parentId: 6
       color:
         serializedVersion: 2
         rgba: 4294902015
     - name: orejaI2_2
       guid: a78a22ead226eaa42a474340199a3e74
-      position: {x: 88.2484, y: -0.000047814738, z: 0}
-      rotation: {x: 0, y: 0, z: -0.21561262, w: 0.97647905}
-      length: 87.98569
+      position: {x: 88.24848, y: -0.00000026755697, z: 0}
+      rotation: {x: 0, y: 0, z: -0.21561274, w: 0.976479}
+      length: 87.985664
       parentId: 8
       color:
         serializedVersion: 2
         rgba: 4278190335
+    - name: pie-I-3_3
+      guid: 377491ec71c1d51479b13ee422492f36
+      position: {x: 38.740932, y: -0.00000058077734, z: 0}
+      rotation: {x: 0, y: 0, z: -0.000000010472952, w: 1}
+      length: 33.980206
+      parentId: 12
+      color:
+        serializedVersion: 2
+        rgba: 4278255488
+    - name: pieD3_4
+      guid: d4047d35b1eef654780bcfdffb4f6a15
+      position: {x: 35.12077, y: -0.00000029391379, z: 0}
+      rotation: {x: 0, y: 0, z: -0.000000044979522, w: 1}
+      length: 31.627111
+      parentId: 15
+      color:
+        serializedVersion: 2
+        rgba: 4286643968
     parts:
     - spritePosition:
         x: 288
