@@ -3,10 +3,13 @@ using UnityEngine;
 
 public class GuardianIA : MonoBehaviour
 {
-    Rigidbody2D enemyrb;
+    [Tooltip("La velocidad a la que se moverá")]
     public float velocidad;
+    [Tooltip("Establecer la distancia que se moverá, el [0] Tiene que ser positivo y el [1] Tiene que ser negativo")]
     public float[] MaxPositions;
+    [Tooltip("Tiempo max para que el enemigo espere, va de 0 al establecido")]
     public float maxTimeWait;
+    Rigidbody2D enemyrb;
     float startPos;
     bool isWaiting;
     Animator animator;
