@@ -3,19 +3,26 @@ using UnityEngine;
 
 public class GuardianCorrrrruptoIA : MonoBehaviour
 {
+    [Tooltip("La velocidad a la que se moverá")]
     public float velocidad;
+    [Tooltip("Establecer la distancia que se moverá, el [0] Tiene que ser positivo y el [1] Tiene que ser negativo")]
     public float[] MaxPositions;
-    public float dist;
+    [Tooltip("Tiempo max para que el enemigo espere, va de 0 al establecido")]
     public float maxTimeWait;
+    [Tooltip("La distancia del raycast")]
+    public float dist;
+    [Tooltip("El layer el cual se checara el raycast")]
     public LayerMask groundNombre;
+    [Tooltip("El origen desde donde saldrá el raycast")]
     public Vector2[] rayCastsOrigins;
+    [Tooltip("La fuerza de salto")]
     public float JumpForce;
     float startPos;
     bool isWaiting;
-    public bool canJump=true;
     Rigidbody2D enemyrb;
     Animator animator;
     [HideInInspector]
+    public bool canJump=true;
     public bool playerIsClose=false;
     void Start()
     {

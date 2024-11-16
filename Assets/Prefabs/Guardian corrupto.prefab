@@ -122,6 +122,7 @@ GameObject:
   - component: {fileID: 5602256299424868193}
   - component: {fileID: 7615449093293840826}
   - component: {fileID: 2213628284959560556}
+  - component: {fileID: 4086947830932724350}
   m_Layer: 0
   m_Name: Guardian corrupto
   m_TagString: Untagged
@@ -255,6 +256,33 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+--- !u!114 &4086947830932724350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2365759766514772808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16eadda358720d488109e2e8a0a5ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidad: 5
+  MaxPositions:
+  - 18
+  - -18
+  dist: 5.31
+  maxTimeWait: 5
+  groundNombre:
+    serializedVersion: 2
+    m_Bits: 128
+  rayCastsOrigins:
+  - {x: -1.65, y: 0.13}
+  - {x: 1.63, y: 0.15}
+  JumpForce: 5
+  canJump: 1
+  playerIsClose: 0
 --- !u!1001 &6881977499639042170
 PrefabInstance:
   m_ObjectHideFlags: 0
