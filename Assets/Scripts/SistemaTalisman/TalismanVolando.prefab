@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7080615470134648402}
   - component: {fileID: 6284620744632596952}
   - component: {fileID: 7062195817030561804}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TalismanVolando
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -145,7 +145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4288677259904034319}
   - component: {fileID: 7427803535175522865}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Talisman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5289529811971999847}
   - component: {fileID: 673757937356466070}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Talisman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
