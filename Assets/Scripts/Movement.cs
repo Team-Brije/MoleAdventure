@@ -27,11 +27,18 @@ public class Movement : MonoBehaviour
     }
     void Update()
     {
+        animator.SetBool("isGrounded", isGrounded());
+        if (HInput == 0)
+        {
+            animator.SetBool("isWalking", false);
+            animator.SetBool("isRunning", false);
+        }
+
+
         PlayerWalk();
         PlayerRun();
         PlayerJump();
 
-        animator.SetBool("isGrounded", isGrounded());
 
         Flipcharacter();
     }

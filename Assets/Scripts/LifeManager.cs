@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 public class LifeManager : MonoBehaviour
 {
     public static int PlayerLife = 3;
+    public bool gameover;
     public ContactFilter2D damage;
     public bool canTakeDamage = true;
     Rigidbody2D rb;
+    public Transform spawnpoint;
     bool takingDamage=>rb.IsTouching(damage);
     private void Start() {
+        PlayerLife = 3;
         rb=GetComponent<Rigidbody2D>();
     }
     private void Update() {
@@ -21,7 +24,7 @@ public class LifeManager : MonoBehaviour
             TakeDamage();
         }
     }
-    void TakeDamage(){
+    public void TakeDamage(){
         StartCoroutine(TDXD());
         if(PlayerLife <= 0){
             gameOver();
@@ -39,7 +42,14 @@ public class LifeManager : MonoBehaviour
         canTakeDamage=true;
     }
     public void ReloadCurrentLevel(){
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.name);
+        PlayerLife = 3;
+        gameObject.transform.position = spawnpoint.position;
+        gameover = true;
+        Invoke(nameof(fuck),0.01f);
+    }
+
+    public void fuck()
+    {
+        gameover = false;
     }
 }
