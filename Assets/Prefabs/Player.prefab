@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5409111912657228481}
   - component: {fileID: 5978144247557525709}
   - component: {fileID: 3984109559367862284}
+  - component: {fileID: 8148734703801490803}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -117,7 +118,34 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 3
+--- !u!114 &8148734703801490803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5441329525092481976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a58225e0564ea349b1413c06687623e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage:
+    useTriggers: 1
+    useLayerMask: 1
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 8
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  canTakeDamage: 1
 --- !u!1001 &6278452849983402875
 PrefabInstance:
   m_ObjectHideFlags: 0
