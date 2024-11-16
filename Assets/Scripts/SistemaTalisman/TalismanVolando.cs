@@ -19,8 +19,12 @@ public class TalismanVolando : MonoBehaviour
         rigidbody2D=GetComponent<Rigidbody2D>();
 
     }
-    public void Disparar(Transform dir)
+    public void Disparar(Transform dir, bool t0)
     {
+        if (t0)
+        {
+            tiempoDeDesaparecer = 0;
+        }
         rigidbody2D.AddForceAtPosition(dir.up * velocidad, transform.position, ForceMode2D.Impulse);
         StartCoroutine(TiempoDeDesaparecer());
     }

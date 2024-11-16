@@ -6,7 +6,8 @@ public class LanzarTalisman : PoolManager
 {
     [SerializeField] Transform lanzadorDeTalismanes;
 
-    [SerializeField] KeyCode tecla;
+    [SerializeField] KeyCode teclaDisparar;
+    [SerializeField] KeyCode teclaPegar;
 
     [Header ("Cooldown")]
     private float ultimoDisparo;
@@ -19,16 +20,31 @@ public class LanzarTalisman : PoolManager
     [SerializeField] public int municionMax;
     public int municionActual;
 
+    private bool pegar;
+
+
     private void Awake()
     {
         ultimoDisparo = Time.time;
     }
     void Update()
     {
-        if (Input.GetKey(tecla) && municionActual>0) 
+        if (Input.GetKey(teclaDisparar) && municionActual>0) 
         {
             if (ultimoDisparo < Time.time)
             {
+                pegar = false;
+                ultimoDisparo = Time.time + cooldown;
+                PedirObjeto();
+                tiempoDRecarga = 0;
+                municionActual--;
+            }
+        }
+        if (Input.GetKey(teclaPegar) && municionActual > 0)
+        {
+            if (ultimoDisparo < Time.time)
+            {
+                pegar = true;
                 ultimoDisparo = Time.time + cooldown;
                 PedirObjeto();
                 tiempoDRecarga = 0;
@@ -45,7 +61,7 @@ public class LanzarTalisman : PoolManager
         GameObject Objeto = base.PedirObjeto();
         Objeto.transform.position = transform.position;
         Objeto.SetActive(true);
-        Objeto.GetComponent<TalismanVolando>().Disparar(lanzadorDeTalismanes);
+        Objeto.GetComponent<TalismanVolando>().Disparar(lanzadorDeTalismanes, pegar);
 
         return Objeto;
     }
