@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class LanzarTalisman : PoolManager
 {
-    //Disparo
-    private float ultimoDisparo;
-    [Range(0, 1)]
-    [SerializeField] private float cooldown;//Tiempo max recarga
-    private float tiempoDRecarga; //Esto es el tiempo en vivo de la recarga
-
     [SerializeField] Transform jugador;
 
     [SerializeField] KeyCode tecla;
+
+    [Header ("Cooldown")]
+    private float ultimoDisparo;
+    [Range(0, 1)]
+    [SerializeField] private float cooldown; //Tiempo max recarga
+    private float tiempoDRecarga; //Esto es el tiempo en vivo de la recarga
+
+    [Header("Municion")]
+    [Range(0, 10)]
+    [SerializeField] public int municionMax;
+    public int municionActual;
 
     private void Awake()
     {
@@ -20,8 +25,7 @@ public class LanzarTalisman : PoolManager
     }
     void Update()
     {
-        //Disparar
-        if (Input.GetKey(tecla)) 
+        if (Input.GetKey(tecla) && municionActual>0) 
         {
             if (ultimoDisparo < Time.time)
             {
@@ -32,6 +36,8 @@ public class LanzarTalisman : PoolManager
         }
         tiempoDRecarga += Time.deltaTime;
         tiempoDRecarga = Mathf.Clamp(tiempoDRecarga, 0,cooldown);
+
+        municionActual = Mathf.Clamp(municionActual, 0, municionMax);
     }
     public override GameObject PedirObjeto()
     {
@@ -39,7 +45,7 @@ public class LanzarTalisman : PoolManager
         Objeto.transform.position = transform.position;
         Objeto.transform.rotation = jugador.rotation;
         Objeto.SetActive(true);
-        //Objeto.GetComponent<Bala>().Disparar(jugador);
+        Objeto.GetComponent<TalismanVolando>().Disparar(jugador);
 
         return Objeto;
     }
