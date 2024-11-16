@@ -2,39 +2,36 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Arma : PoolManager
+public class LanzarTalisman : PoolManager
 {
-    //Cadencia
-    public float cadencia = 0.25f;
     //Disparo
-    [SerializeField] private float ultimoDisparo;
-    public float cooldown;
+    private float ultimoDisparo;
+    [Range(0, 1)]
+    [SerializeField] private float cooldown;//Tiempo max recarga
+    private float tiempoDRecarga; //Esto es el tiempo en vivo de la recarga
+
     [SerializeField] Transform jugador;
-    [SerializeField] KeyCode kya;
+
+    [SerializeField] KeyCode tecla;
 
     private void Awake()
     {
         ultimoDisparo = Time.time;
-
-
     }
     void Update()
     {
         //Disparar
-
-            if (Input.GetKey(kya)) /////////////////////////////////////////////////////////////////
+        if (Input.GetKey(tecla)) 
+        {
+            if (ultimoDisparo < Time.time)
             {
-                if (ultimoDisparo < Time.time)
-                {
-                    ultimoDisparo = Time.time + cadencia;
-                    PedirObjeto();
-                    cooldown = 0;
-                }
+                ultimoDisparo = Time.time + cooldown;
+                PedirObjeto();
+                tiempoDRecarga = 0;
             }
-        
-
-        cooldown += Time.deltaTime;
-        cooldown = Mathf.Clamp(cooldown, 0, cadencia);
+        }
+        tiempoDRecarga += Time.deltaTime;
+        tiempoDRecarga = Mathf.Clamp(tiempoDRecarga, 0,cooldown);
     }
     public override GameObject PedirObjeto()
     {
