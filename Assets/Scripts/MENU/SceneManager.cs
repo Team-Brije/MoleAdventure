@@ -7,4 +7,15 @@ public class ManagerScene : MonoBehaviour
     {
         SceneManager.LoadScene(sceneTarget);
     }
+
+    public void SwitchObject(GameObject obj)
+    {
+        gameObject.SetActive(false);
+        obj.SetActive(true);
+    }
+
+    public void QuitApp()
+    {
+        Application.Quit();
+    }
 }
