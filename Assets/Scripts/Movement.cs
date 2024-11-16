@@ -10,6 +10,8 @@ public class Movement : MonoBehaviour
     public bool isFacingRight;
     private bool isRunning;
     private Animator animator;
+    private float runningspeed;
+    private float initialsped;
 
     private Rigidbody2D rb;
 
@@ -20,12 +22,16 @@ public class Movement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        runningspeed = speed * 1.5f;
+        initialsped = speed;
     }
     void Update()
     {
         PlayerWalk();
         PlayerRun();
         PlayerJump();
+
+        animator.SetBool("isGrounded", isGrounded());
 
         Flipcharacter();
     }
@@ -63,17 +69,20 @@ public class Movement : MonoBehaviour
     }
     public void PlayerRun()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift)&& HInput != 0)
+        if (Input.GetKeyDown(KeyCode.LeftShift))
         {
-            speed = speed * 1.5f;
             isRunning = true;
+            speed = runningspeed;
+        }
+        if (isRunning && HInput != 0)
+        {
             animator.SetBool("isRunning", true);
             animator.SetBool("isWalking", false);
         }
-        if(Input.GetKeyUp(KeyCode.LeftShift))
+        if (Input.GetKeyUp(KeyCode.LeftShift))
         {
-            speed = speed / 1.5f;
             isRunning = false;
+            speed = initialsped;
             animator.SetBool("isRunning", false);
         }
     }
