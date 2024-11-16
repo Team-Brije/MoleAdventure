@@ -6,8 +6,8 @@ using UnityEngine.VFX;
 
 public class TalismanVolando : MonoBehaviour
 {
-    private new Rigidbody2D rigidbody2D;
-
+    private Rigidbody2D rigidbody2D;
+    [Range(0, 10)]
     [SerializeField] private float velocidad;
 
     [Range(0, 10)]
@@ -17,26 +17,19 @@ public class TalismanVolando : MonoBehaviour
     private void Awake()
     {
         rigidbody2D=GetComponent<Rigidbody2D>();
+
     }
     public void Disparar(Transform dir)
     {
-        transform.rotation = dir.rotation;
-        rigidbody2D.AddForce( transform.up * velocidad, ForceMode2D.Impulse);
+        rigidbody2D.AddForceAtPosition(dir.up * velocidad, transform.position, ForceMode2D.Impulse);
+        StartCoroutine(TiempoDeDesaparecer());
     }
-    private void OnBecameInvisible()
-    {
-        if (gameObject.activeInHierarchy) 
-        {
-            StartCoroutine(TiempoDeDesaparecer());
-        }
-        
-    }
+
     private IEnumerator TiempoDeDesaparecer()
     {
         yield return new WaitForSeconds(tiempoDeDesaparecer);
         gameObject.SetActive(false);
-        Instantiate(talismanflotando, transform.position, quaternion.identity);
+        Instantiate(talismanflotando, gameObject.transform.position, quaternion.identity);
     }
-
 
 }

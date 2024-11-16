@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LanzarTalisman : PoolManager
 {
-    [SerializeField] Transform jugador;
+    [SerializeField] Transform lanzadorDeTalismanes;
 
     [SerializeField] KeyCode tecla;
 
@@ -32,6 +32,7 @@ public class LanzarTalisman : PoolManager
                 ultimoDisparo = Time.time + cooldown;
                 PedirObjeto();
                 tiempoDRecarga = 0;
+                municionActual--;
             }
         }
         tiempoDRecarga += Time.deltaTime;
@@ -43,9 +44,8 @@ public class LanzarTalisman : PoolManager
     {
         GameObject Objeto = base.PedirObjeto();
         Objeto.transform.position = transform.position;
-        Objeto.transform.rotation = jugador.rotation;
         Objeto.SetActive(true);
-        Objeto.GetComponent<TalismanVolando>().Disparar(jugador);
+        Objeto.GetComponent<TalismanVolando>().Disparar(lanzadorDeTalismanes);
 
         return Objeto;
     }
