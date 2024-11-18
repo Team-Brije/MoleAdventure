@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 104486700559167961}
   - component: {fileID: 3469821712357007892}
   - component: {fileID: 6300825006110964974}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Hongo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

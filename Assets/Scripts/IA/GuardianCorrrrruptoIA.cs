@@ -24,6 +24,10 @@ public class GuardianCorrrrruptoIA : MonoBehaviour
     [HideInInspector]
     public bool canJump=true;
     public bool playerIsClose=false;
+
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private LayerMask groundLayer;
+
     void Start()
     {
         enemyrb = this.GetComponent<Rigidbody2D>();
@@ -44,7 +48,12 @@ public class GuardianCorrrrruptoIA : MonoBehaviour
         }
         GroundCheckJump();
     }
-    
+
+    private bool isGrounded()
+    {
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+    }
+
     public void Caminando(){
         animator.SetTrigger("walkin");
         transform.Translate(Vector3.right * velocidad * Time.deltaTime);
@@ -97,14 +106,14 @@ public class GuardianCorrrrruptoIA : MonoBehaviour
         RaycastHit2D hit2 = Physics2D.Raycast(origen2, Vector2.down,dist,groundNombre);
             if(hit1.collider != null){canJump=true;
                 }else{
-                    if(canJump){
+                    if(canJump && isGrounded()){
                         enemyrb.AddForce(Vector2.up*JumpForce, ForceMode2D.Impulse);
                         canJump=false;
                     }
             }
             if(hit2.collider != null){canJump=true;
                 }else{
-                    if(canJump){
+                    if(canJump && isGrounded()){
                         enemyrb.AddForce(Vector2.up*JumpForce, ForceMode2D.Impulse);
                         canJump=false;
                     }

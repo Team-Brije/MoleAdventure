@@ -7,11 +7,13 @@ public class PitBehaviour : MonoBehaviour
     LifeManager lifeManager;
     GameObject Player;
     public Transform placeback;
+    Animator animator;
 
     private void Awake()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
         lifeManager = Player.GetComponent<LifeManager>();
+        animator = Player.GetComponent<Animator>();
     }
 
     private void Update()
@@ -29,6 +31,10 @@ public class PitBehaviour : MonoBehaviour
         {
             StartCoroutine(Damage());
         }
+        if (collision.CompareTag("Enemy"))
+        {
+            collision.gameObject.SetActive(false);
+        }
     }
 
     public IEnumerator Si()
@@ -43,6 +49,8 @@ public class PitBehaviour : MonoBehaviour
         Player.SetActive(false);
         yield return new WaitForSeconds(1f);
         Player.SetActive(true);
+        animator.SetBool("isNotHurt", true);
+        lifeManager.canTakeDamage = true;
         yield return new WaitForEndOfFrame();
         Player.transform.position = placeback.position;
     }

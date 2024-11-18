@@ -117,6 +117,7 @@ GameObject:
   - component: {fileID: 997569254270461220}
   - component: {fileID: 4079799427059913860}
   - component: {fileID: -5260062989605071675}
+  - component: {fileID: 7603500733185815748}
   m_Layer: 6
   m_Name: TalismanP
   m_TagString: Untagged
@@ -197,3 +198,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7603500733185815748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5241461129492155248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d3f00acb0323fe4e9f753403eee378b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

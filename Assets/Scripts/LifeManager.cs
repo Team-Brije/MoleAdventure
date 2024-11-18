@@ -11,10 +11,13 @@ public class LifeManager : MonoBehaviour
     public bool canTakeDamage = true;
     Rigidbody2D rb;
     public Transform spawnpoint;
+    Animator animator;
     bool takingDamage=>rb.IsTouching(damage);
     private void Start() {
         PlayerLife = 3;
         rb=GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        animator.SetBool("isNotHurt", true);
     }
     private void Update() {
         print(PlayerLife);
@@ -25,7 +28,12 @@ public class LifeManager : MonoBehaviour
         }
     }
     public void TakeDamage(){
-        StartCoroutine(TDXD());
+        if (canTakeDamage)
+        {
+            StartCoroutine(TDXD());
+            StartCoroutine(AnimStop());
+            animator.SetTrigger("isHurt");
+        }
         if(PlayerLife <= 0){
             gameOver();
         }
@@ -35,13 +43,22 @@ public class LifeManager : MonoBehaviour
         ReloadCurrentLevel();
     }
 
+    public IEnumerator AnimStop()
+    {
+        animator.SetBool("isNotHurt", false);
+        yield return new WaitForSeconds(0.36f);
+        animator.SetBool("isNotHurt", true);
+    }
+
     public IEnumerator TDXD(){
         canTakeDamage=false;
         PlayerLife--;
         yield return new WaitForSeconds(2f);
-        canTakeDamage=true;
+        animator.SetBool("isNotHurt", true);
+        canTakeDamage =true;
     }
     public void ReloadCurrentLevel(){
+        canTakeDamage = true;
         PlayerLife = 3;
         gameObject.transform.position = spawnpoint.position;
         gameover = true;
@@ -50,6 +67,7 @@ public class LifeManager : MonoBehaviour
 
     public void fuck()
     {
+        animator.SetBool("isNotHurt", true);
         gameover = false;
     }
 }
