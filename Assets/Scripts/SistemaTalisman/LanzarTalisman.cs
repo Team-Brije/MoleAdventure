@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class LanzarTalisman : PoolManager
 {
@@ -19,6 +20,7 @@ public class LanzarTalisman : PoolManager
     [Range(0, 10)]
     [SerializeField] public int municionMax;
     public int municionActual;
+    public TextMeshProUGUI municionTexto;
 
     private bool pegar;
 
@@ -26,6 +28,11 @@ public class LanzarTalisman : PoolManager
     private void Awake()
     {
         ultimoDisparo = Time.time;
+    }
+    private void Start()
+    { 
+        municionActual = municionMax; 
+        ActualizarMunicionUI();
     }
     void Update()
     {
@@ -38,6 +45,7 @@ public class LanzarTalisman : PoolManager
                 PedirObjeto();
                 tiempoDRecarga = 0;
                 municionActual--;
+                ActualizarMunicionUI();
             }
         }
         if (Input.GetKey(teclaPegar) && municionActual > 0)
@@ -49,6 +57,7 @@ public class LanzarTalisman : PoolManager
                 PedirObjeto();
                 tiempoDRecarga = 0;
                 municionActual--;
+                ActualizarMunicionUI();
             }
         }
         tiempoDRecarga += Time.deltaTime;
@@ -65,7 +74,10 @@ public class LanzarTalisman : PoolManager
 
         return Objeto;
     }
-    
+    void ActualizarMunicionUI()
+    {
+        municionTexto.text = municionActual.ToString();
+    }
 }
 
 

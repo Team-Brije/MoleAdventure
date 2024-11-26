@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class LifeManager : MonoBehaviour
 {
@@ -13,14 +14,18 @@ public class LifeManager : MonoBehaviour
     public Transform spawnpoint;
     Animator animator;
     bool takingDamage=>rb.IsTouching(damage);
+    public Slider lifeSlider; //UI
     private void Start() {
         PlayerLife = 3;
         rb=GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         animator.SetBool("isNotHurt", true);
+        lifeSlider.maxValue = PlayerLife;
+        lifeSlider.value = PlayerLife;
     }
     private void Update() {
         print(PlayerLife);
+        lifeSlider.value = PlayerLife;
     }
     private void FixedUpdate() {
         if(takingDamage==true && canTakeDamage == true){
