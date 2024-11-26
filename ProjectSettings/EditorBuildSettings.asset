@@ -8,5 +8,20 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MENUINICIAL.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/NIVEL1.unity
+    guid: 730f29f7e75bce34b982685dcfa2b21b
+  - enabled: 1
+    path: Assets/Scenes/NIVEL2.unity
+    guid: ddeb52e97fd777f429c071f0b60c466d
+  - enabled: 1
+    path: Assets/Scenes/NIVEL3.unity
+    guid: f1e28a41de1026f428b6f8e7c5719b71
+  - enabled: 1
+    path: Assets/Scenes/CREDITOS.unity
+    guid: 41c61bb9ba70b78428c5f80c44c71039
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: f14dd6f36a003854cbc1a2de5baaf441, type: 2}

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class LifeManager : MonoBehaviour
 {
-    public static int PlayerLife = 3;
+    public int playerLife = 3;
     public bool gameover;
     public ContactFilter2D damage;
     public bool canTakeDamage = true;
@@ -16,16 +16,16 @@ public class LifeManager : MonoBehaviour
     bool takingDamage=>rb.IsTouching(damage);
     public Slider lifeSlider; //UI
     private void Start() {
-        PlayerLife = 3;
+        playerLife = 3;
         rb=GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         animator.SetBool("isNotHurt", true);
-        lifeSlider.maxValue = PlayerLife;
-        lifeSlider.value = PlayerLife;
+        lifeSlider.maxValue = playerLife;
+        lifeSlider.value = playerLife;
     }
     private void Update() {
-        print(PlayerLife);
-        lifeSlider.value = PlayerLife;
+        print(playerLife);
+        lifeSlider.value = playerLife;
     }
     private void FixedUpdate() {
         if(takingDamage==true && canTakeDamage == true){
@@ -39,7 +39,7 @@ public class LifeManager : MonoBehaviour
             StartCoroutine(AnimStop());
             animator.SetTrigger("isHurt");
         }
-        if(PlayerLife <= 0){
+        if(playerLife <= 0){
             gameOver();
         }
     }
@@ -57,14 +57,14 @@ public class LifeManager : MonoBehaviour
 
     public IEnumerator TDXD(){
         canTakeDamage=false;
-        PlayerLife--;
+        playerLife--;
         yield return new WaitForSeconds(2f);
         animator.SetBool("isNotHurt", true);
         canTakeDamage =true;
     }
     public void ReloadCurrentLevel(){
         canTakeDamage = true;
-        PlayerLife = 3;
+        playerLife = 3;
         gameObject.transform.position = spawnpoint.position;
         gameover = true;
         Invoke(nameof(fuck),0.01f);
