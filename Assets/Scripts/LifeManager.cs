@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class LifeManager : MonoBehaviour
 {
-    public int playerLife = 3;
+    public int playerLife;
     public bool gameover;
     public ContactFilter2D damage;
     public bool canTakeDamage = true;
@@ -15,12 +15,15 @@ public class LifeManager : MonoBehaviour
     Animator animator;
     bool takingDamage=>rb.IsTouching(damage);
     public Slider lifeSlider; //UI
+    public GameDataController controller;
+
     private void Start() {
-        playerLife = 3;
+        controller = GameObject.FindGameObjectWithTag("SaveData").GetComponent<GameDataController>();
+        playerLife = controller.LoadHealth();
         rb=GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         animator.SetBool("isNotHurt", true);
-        lifeSlider.maxValue = playerLife;
+        lifeSlider.maxValue = 3;
         lifeSlider.value = playerLife;
     }
     private void Update() {

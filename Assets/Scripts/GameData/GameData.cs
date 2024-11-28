@@ -9,3 +9,9 @@ public class GameData
     public Vector3 position;
     public int health;
 }
+
+[System.Serializable]
+public class LevelData
+{
+    public int levelint;
+}
